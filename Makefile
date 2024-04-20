@@ -1,7 +1,6 @@
 # Compiler setup.
 CXX := g++
 CXXFLAGS := $(INC_FLAGS) -std=c++17 -MMD -MP
-LDFLAGS := -lncurses
 
 # Build path & target.
 TARGET_EXEC := backlog
