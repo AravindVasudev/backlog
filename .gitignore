@@ -31,6 +31,11 @@
 *.out
 *.app
 bin/
+buck-out/
+
+# Config
+.buckconfig
+.buckroot
 
 # Editor
 .vscode/
